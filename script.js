@@ -15,7 +15,7 @@ button.addEventListener('click', function () {
         spenta.classList.add('d-none')
         accesa.classList.remove('d-none');
         isAccesa = true;
-         button.innerText = 'SPEGNI LA LAMPADINA'
+        button.innerText = 'SPEGNI LA LAMPADINA'
     }
     // se è accesa, spegnila
     else {
@@ -24,4 +24,25 @@ button.addEventListener('click', function () {
         isAccesa = false;
         button.innerText = 'ACCENDI LA LAMPADINA'
     }
+})
+
+
+//BONUS
+
+const secondButton = document.querySelector('.secondButton');
+
+const thirdButton = document.querySelector('.thirdButton')
+
+const spenta2 = document.querySelector('.spenta2')
+
+const accesa2 = document.querySelector('.accesa2')
+
+secondButton.addEventListener('click', function () {
+    spenta2.classList.add('d-none')
+   accesa2.classList.remove('d-none');
+})
+
+thirdButton.addEventListener('click', function () {
+    accesa2.classList.add('d-none')
+   spenta2.classList.remove('d-none');
 })
