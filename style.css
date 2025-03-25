@@ -33,3 +33,13 @@ h2{
     position: relative;
     left: 42%;
 }
+
+.thirdButton{
+    display: flex;
+}
+
+.my-d-flex{
+display: flex;
+margin-right: 15%;
+gap: 30px;
+}
