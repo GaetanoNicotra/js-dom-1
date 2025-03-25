@@ -1,8 +1,12 @@
 
-.accesa{
+/*.accesa{
     display: none;
-}
+}*/
 
-.spenta{
+/*.spenta{
     display: block;
+}*/
+
+.d-none{
+    display: none;
 }
