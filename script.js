@@ -15,12 +15,13 @@ button.addEventListener('click', function () {
         spenta.classList.add('d-none')
         accesa.classList.remove('d-none');
         isAccesa = true;
-
+         button.innerText = 'SPEGNI LA LAMPADINA'
     }
     // se è accesa, spegnila
     else {
         spenta.classList.remove('d-none')
         accesa.classList.add('d-none');
         isAccesa = false;
+        button.innerText = 'ACCENDI LA LAMPADINA'
     }
 })
