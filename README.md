@@ -1,4 +1,4 @@
-# js-dom-1
+# js-dom-1 💡
 
 Inserire in pagina l’immagine della lampadina spenta e accanto un bottone con la scritta “Accendi”.
 Al click del bottone, la lampadina dovrà accendersi ( quindi utilizzare l’immagine della lampadina accesa)
